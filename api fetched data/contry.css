@@ -1,0 +1,23 @@
+.card{
+   border: 2px solid red;
+  width: 25%;
+
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px;
+}
+img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.document{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card:hover{
+    scale: 1.05;
+}
